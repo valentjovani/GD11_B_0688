@@ -48,4 +48,15 @@ dependencies {
     implementation 'com.android.volley:volley:1.2.1'
     //Gson
     implementation 'com.google.code.gson:gson:2.8.8'
+
+    //unit testing
+    androidTestImplementation 'androidx.test:runner:1.4.0'
+    androidTestImplementation 'androidx.test:rules:1.4.0'
+
+    //optional Hamcrest liblary
+    androidTestImplementation 'org.hamcrest:hamcrest-library:1.3'
+    //optional UI testing with Espresso
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    //optional UI testing with UI Automator
+    androidTestImplementation 'androidx.test.uiautomator:uiautomator:2.2.0'
 }
